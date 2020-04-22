@@ -2,9 +2,6 @@ import React from 'react';
 import CounterMessage from './CounterMessage'
 
 function App() {
-	/**
-	 * Your code goes here.
-	 */
 	 const [counter,setCount] = React.useState(0)
 	 const decrement = () => {
 	 	 setCount(counter - 1)
